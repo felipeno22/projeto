@@ -2,13 +2,15 @@
 
 
 //iniciando sessao
-
+session_start();
 require_once("vendor/autoload.php");
 
 
 use \felipeno22\DB\Sql;
 use \Slim\Slim;
 use \felipeno22\Page;
+use \felipeno22\PageAdmin;
+use \felipeno22\Model\Usuario;
 
 
 
@@ -39,6 +41,46 @@ $app->config('debug', true);
 
 
    });
+
+
+
+$app->get('/admin', function() {
+    
+   
+   
+
+
+	
+
+	$page=new PageAdmin();
+
+	$page->setTlp("index");
+
+	
+
+});
+
+
+
+   $app->post('/',function(){
+
+   		 // chamando o métod de logar da classe User
+	Usuario::login($_POST['login'],$_POST['password']);
+
+
+
+	//chamando a tela de adminstração após logar
+	header("Location: /admin");
+	exit;
+	
+
+
+
+
+   });
+
+
+
 
 
 

@@ -16,7 +16,7 @@ class Page{
 	private $options=[];
 
 
-	public function __construct($opts=array(),$tpl_dir="/views/login/"){
+	public function __construct($opts=array(),$tpl_dir="/views/"){
 
 
 		//$this->$defaults["data"]["session"]=$_SESSION;

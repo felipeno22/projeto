@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'eba3aff5a1dad1a237509014f72a517e30255e40',
+    'reference' => '146ee88b57c5ec5f8edb3197e1302b377cb8e4c4',
     'name' => 'felipeno22/projeto',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'eba3aff5a1dad1a237509014f72a517e30255e40',
+      'reference' => '146ee88b57c5ec5f8edb3197e1302b377cb8e4c4',
     ),
     'phpmailer/phpmailer' => 
     array (
