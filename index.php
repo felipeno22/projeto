@@ -60,11 +60,28 @@ $app->get('/admin', function() {
 
 });
 
+//criando rota para a tela de  login
+$app->get('/admin/login', function() {
+    
+	//echo "OK";
+
+	//quando for a rota da tela de login header e footer da pagina é difente
+	//entao passa os parametros como false para nao chamar os header e footer
+	//que são padrões nas demais páginas
+	$page=new PageAdmin(["header"=>false,"footer"=>false]);
+
+	$page->setTlp("login");
+
+	
+
+});
 
 
-   $app->post('/',function(){
+//criando rota para a tela de  login
+$app->post('/admin/login', function() {
+    
 
-   		 // chamando o métod de logar da classe User
+    // chamando o métod de logar da classe User
 	Usuario::login($_POST['login'],$_POST['password']);
 
 
@@ -74,10 +91,7 @@ $app->get('/admin', function() {
 	exit;
 	
 
-
-
-
-   });
+});
 
 
 
