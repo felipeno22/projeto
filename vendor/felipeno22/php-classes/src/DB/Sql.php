@@ -1,6 +1,6 @@
 <?php 
 
-namespace Hcode\DB;
+namespace felipeno22\DB;
 
 class Sql {
 
@@ -12,7 +12,7 @@ class Sql {
 	const HOSTNAME = "127.0.0.1";
 	const USERNAME = "root";
 	const PASSWORD = "";
-	const DBNAME = "ecommerce";
+	const DBNAME = "db_ecommerce";
 
 	private $conn;
 
