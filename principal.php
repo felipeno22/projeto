@@ -20,21 +20,27 @@
 	
 </head>
 <body>
-	
-<div style="border:1px  solid blue;width:500px;margin-left:400px;margin-top:200px">	
-	<form>
-  <div class="form-group">
-    <label for="exampleInputUser1">Usuário</label>
-    <input type="text" class="form-control" id="exampleInputUser1"  placeholder="">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-     <a href="">esqueci a senha</a>
-  </div>
-  <button type="submit" class="btn btn-primary">Entrar</button>
-</form>
-	</div>
+	<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastro</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Usuario</a>
+      <a class="dropdown-item" href="#">Clientes</a>
+      <a class="dropdown-item" href="#">Produtos</a>
+      <!--<div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Link isolado</a>-->
+    </div>
+  </li>
+ <!-- <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Desativado</a>
+  </li>-->
+</ul>
 
 </body>
 </html>
