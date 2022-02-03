@@ -20,3 +20,21 @@
 	
 </head>
 <body>
+	
+<div style="border:1px  solid blue;width:500px;margin-left:400px;margin-top:200px">	
+	<form action="/admin/login" method="post">
+  <div class="form-group">
+    <label for="login">Usuário</label>
+    <input type="text" class="form-control" id="login"  name="login"  placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="password">Senha</label>
+    <input type="password" class="form-control" id="password" name="password" placeholder="Senha">
+     <a href="">esqueci a senha</a>
+  </div>
+  <button type="submit" class="btn btn-primary">Entrar</button>
+</form>
+	</div>
+
+</body>
+</html>

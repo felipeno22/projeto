@@ -252,7 +252,7 @@ public  function save($dados){
 
 	/*array(5) { ["desperson"]=> string(22) "Adrieli Ornela Barbosa" ["deslogin"]=> string(3) "ddd" ["nrphone"]=> string(11) "67984016117" ["desemail"]=> string(23) "ornelaadrieli@gmail.com" ["inadmin" ]=> int(1) }*/
 
-	$this->setIdperson($dados["idperson"]);
+	
 	$this->setDesperson($dados["desperson"]);
 	$this->setDespassword($dados["despassword"]);
 	$this->setDeslogin($dados["deslogin"]);
